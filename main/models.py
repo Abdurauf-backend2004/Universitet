@@ -30,6 +30,8 @@ class Ustoz(models.Model):
 
     ]
 
+
+
     ism = models.CharField(max_length=255)
     jins = models.CharField(max_length=10)
     yosh = models.PositiveIntegerField()
